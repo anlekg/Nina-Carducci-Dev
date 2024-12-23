@@ -6,6 +6,9 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+h5 {
+	font-size: 1.75rem;
+}
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -69,7 +72,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
 #about-me {
 	flex: 2
