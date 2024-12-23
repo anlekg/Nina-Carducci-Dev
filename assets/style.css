@@ -113,13 +113,13 @@ h5 {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #000;
-	background-color: #7A6C2B;
+	color: #ffffff;
+	background-color: #5E4A00;
 	border-radius: 0;
 }
 
 .nav-pills .nav-link {
-	color: #444;
+	color: #333333;
 }
 .item-column {
 	position: relative;
