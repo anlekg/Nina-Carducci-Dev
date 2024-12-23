@@ -70,6 +70,11 @@ h5 {
 	z-index: 0;
 }
 
+.carousel-inner img {
+	width: 100%;
+	height: auto;
+}
+
 .picture img {
 	width: 100%;
 	height: auto;
@@ -87,6 +92,9 @@ h5 {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	display: flex;
+	line-height: 1.2;
+	margin-bottom: 8px;
 }
 #about-me p {
 	width: 80%;
@@ -99,6 +107,7 @@ h5 {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: 1.75rem;
 }
 .gallery .nav {
 	justify-content: center;
@@ -150,7 +159,8 @@ h5 {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5rem;
+	line-height: 1.2;
 }
 .quote__author {
 	font-family: Spectral;
@@ -216,7 +226,9 @@ h5 {
 }
 .form-container {
 	flex : 2;
-
+}
+.form-container h2 {
+	font-size: 1.75rem;
 }
 form {
 	display: flex;
