@@ -123,6 +123,9 @@ h5 {
 .nav-pills .nav-link {
 	color: #333333;
 }
+.nav-link:hover {
+	cursor: pointer;
+}
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
